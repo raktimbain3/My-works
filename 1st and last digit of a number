@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+  int n,a,i;
+  printf("Enter a number :");
+  scanf("%d",&n);
+a=n%10;
+i=n;
+
+  while(i>=10)
+  {
+    i=i/10;
+  }
+  printf("First digit : %d\n",i);
+  printf("Last Digit : %d\n",a);
+return 0;
+}
